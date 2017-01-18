@@ -3,7 +3,8 @@ header, section, footer, nav, aside, article, hgroup, figure, figcaption {
 }
 body{
     text-align: center;
-    background-image: url("img/escudo_rojo.jpg");
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/93/ed/43/93ed43caad7d4fc351838df8667527a8.jpg");
+    /* en github no lee de esta manera (si con el css) background-image: url("img/escudo_rojo.jpg"); */
 }
 .caja_principal{
     width: 960px;
@@ -67,4 +68,3 @@ figcaption{
     text-align: center;
     padding: 20px;
 }
-/*las propiedades en linea o id tienen prioridad sobre el class*/
