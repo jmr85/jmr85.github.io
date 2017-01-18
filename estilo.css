@@ -1,0 +1,70 @@
+header, section, footer, nav, aside, article, hgroup, figure, figcaption {
+    display: block; 
+}
+body{
+    text-align: center;
+    background-image: url("../img/escudo_rojo_2.jpg");
+}
+.caja_principal{
+    width: 960px;
+    margin: 15px auto; /*1er parámetro (15px) margen superior-inferior, el 2do párametro (auto) asigna valores margen izquierda y derecha automáticamente*/
+    text-align: left;
+}
+.header_principal{
+    border: 1px solid;
+    padding: 20px;
+}
+#menu{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 15px;
+    font: bold 14px verdana, sans-serif;
+}
+#menu li:hover{
+    /*cualquier li que este dendro del menú
+    si le saco el #menu aplica a todos los <li>
+    */
+    cursor: pointer;
+    background-color: yellow
+}
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px; /*margen interno de las opciones del menu, quedan mas separados*/
+
+}
+#section_principal{
+    float: left;
+    margin: 20px;
+}
+p{
+    font-size: 16px;
+}
+
+.articulo{ /*usarlo como padre de article*/
+    border-bottom: 1px solid white;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+.articulo > div > ul > li {
+    /*raiz completa*/
+    display: inline;
+}
+figcaption{
+    font: italic 14px verdana, sans-serif;
+
+}
+.destacado{
+    background-color: lightgrey; 
+}
+.articulo figure {
+	/*float: left;garantiza que cada elemento sea colocado al lado de la anterior*/
+	margin: 15px;
+}
+.articulo figcaption{
+	font: italic 14px verdana, sans-serif;
+}
+.footer_principal{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+/*las propiedades en linea o id tienen prioridad sobre el class*/
