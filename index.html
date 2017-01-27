@@ -1,83 +1,127 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>      
-    <meta charset="UTF-8">
-    <title>CAI</title>
-    <link rel="stylesheet" href="css/estilo.css">
-</head>
-<body>
-    <div class="caja_principal">
-    </div class="header_principal">
-        <header>       
-            <h1>Club Atletico Independiente  </h1>
-            <h2>Sitio NO oficial (truchiiisimo)</h2>
-            <h3>sitio a elimnar, <a href="https://jmr85.github.io/independiente/">el proyecto con bootstrap</a></h3>
-            
-        </header>
-    </div>
-     <nav id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>Noticias</li>
-            <li>Historia</li>
-            <li>Estadio</li>
-            <li>Plantel</li>
-            <li><a href="http://www.clubaindependiente.com/" target="_blank">Sitio oficial</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-     </nav>
-  <hr>  
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Juan Martin Ruiz">
+    <!--<link rel="icon" href="../../favicon.ico">-->
 
-   <section id="section_principal">
-        <div class="articulo">
-            <article>
-                <h2>Independiente Rey de Copas</h2>
-                <h3>El rojo fué y será siempre el Rey</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non augue porttitor scelerisque ac id diam. Mauris elit velit, lobortis sed interdum at, vestibulum vitae libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis ligula ut ipsum mattis viverra. Nulla a libero metus. Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis. Mauris molestie augue sed nunc adipiscing et pharetra ligula suscipit. In euismod lectus ac sapien fringilla ut eleifend lacus venenatis. 
-                    </p>
-                    <figure>
-                        <img src="http://1.bp.blogspot.com/-WUnTiWaEHVQ/TxH77idH7EI/AAAAAAAAITw/FdFOGUgrCAI/s1600/INDEPENDIENTE+1994.jpg"   alt="plantel 1994"><!-- atributo alt es texto alternativo por si no carga la imagen -->
-                        <!-- en github no lee de esta manera (si con el css) <img src="img/independiente_1994.jpg"> -->
-                        <figcaption>plantel independiente 1994</figcaption>
+    <title>Juan M Ruiz</title>
 
-                    </figure>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <!--<h3 class="masthead-brand">@jmr85</h3>-->
+              <a href="https://github.com/jmr85" >
+                    <img src="assets/img/image-perfil.jpg" class="img-circle masthead-brand" alt="imagen perfil" width="61" height="60">
+              </a>        
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <!-- <li><a href="#sector">Features</a></li> -->
+                  <li><a href="#"  data-toggle="modal" data-target="#myModal">Contacto</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Mis proyectos</h1>
+            <p class="lead">Acá encontraras todos mis repositorios de proyectos y prácticas como estudiante</p>
+            <p class="lead">
+              <div>     
+                <button type="button" id="boton-principal" class="btn btn-lg btn-default" data-toggle="tooltip" data-placement="bottom" title="Sitio en construcción">Leer más</button>
+              </div>
+            </p>
+          
+  
+
+
+          <!--<data-toggle="popover" title="Popover title" data-content="And here's some amazing...">-->
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Contacto</h4>
+                </div>
+                <div class="modal-body">
+                  <address>
+                    <strong>Dirección</strong><br>
                     
-                    <footer>
-                        <span>Nombre: <input type="text">
-                        <br>
-                        <span>Comentario: <textarea></textarea>
-                        <input type="button" value="Comentar">
-                    </footer> 
-            </article>
-       </div> 
-       <div class="articulo">
-            <article>
-            
-                <h2>Ganó 4 a 0</h2>
-                <h3>El rojo le gano comodamente a racing</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non augue porttitor scelerisque ac id diam. Mauris elit velit, lobortis sed interdum at, vestibulum vitae libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis ligula ut ipsum mattis viverra. Nulla a libero metus. Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis. Mauris molestie augue sed nunc adipiscing et pharetra ligula suscipit. In euismod lectus ac sapien fringilla ut eleifend lacus venenatis. 
-                    </p>
-                    <figure>
-                        <img src="http://4.bp.blogspot.com/-iyJTgBM4TKQ/T4mz9jIcbQI/AAAAAAAAHqk/5gFozxWFO-g/s1600/1.jpg" width="50" alt="Bochini">
-                     <!-- en github no lee de esta manera (si con el css) <img src="img/rojo_goleada_racing.jpg"> -->
-                    </figure>
-                    <footer>
-                        <span>Nombre: <input type="text">
-                        <br>
-                        <span>Comentario: <textarea></textarea>
-                        <input type="button" value="Comentar">
-                    </footer>                   
-            </article>         
-       </div>
-             
-   </section>
+                    Buenos Aires, CABA<br>
+                     (+54) 11 6637-6475
+                </address>
+                <address>
+                  <strong>E-mail</strong><br>
+                  <a href="mailto:#">juan.martin.ruiz@gmail.com</a>
+                </address>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div> <!-- end Modal-->
 
-    <footer class="footer_principal">
-        <p>CABA - &copy  2017</p>
-        
-    </footer>
- </div> 
-</body>
-</html> 
+          <div class="mastfoot">
+            <div class="inner">
+              <p>CABA - ©  2017</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script>
+      $('#boton-principal').tooltip();
+      /*$('#boton-principal').popover({
+        trigger: 'click'
+      })*/
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
