@@ -1,0 +1,121 @@
+html, body {
+  background: #f5f5f5;
+  color: #555;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+i {
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: right;
+  width: 2.5em;
+  @media (min-width: 768px) and (min-device-width: 768px) {
+    width: inherit;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+#main {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  @media (min-width: 768px) and (min-device-width: 768px) {
+    padding-top: 50px;
+  }
+
+  #card {
+    $card-padding: 15px;
+
+    position: relative;
+    padding: $card-padding;
+    border-radius: 4px;
+
+    $avatar-size-desktop: 220px;
+    $avatar-size-mobile: 400px;
+    @media (min-width: 768px) and (min-device-width: 768px) {
+      background: #fafafa;
+      box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.5);
+      padding: $card-padding $card-padding $card-padding ($avatar-size-desktop+30px);
+    }
+
+    #avatar {
+      width: $avatar-size-mobile;
+      height: $avatar-size-mobile;
+      overflow: hidden;
+      border-radius: 50%;
+      text-align: center;
+      margin: 0 auto 20px auto;
+
+      @media (min-width: 768px) and (min-device-width: 768px) {
+        width: $avatar-size-desktop;
+        height: $avatar-size-desktop;
+        position: absolute;
+        top: 50%;
+        margin-top: -$avatar-size-desktop/2;
+        left: $card-padding;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Poiret One', cursive, sans-serif;
+      font-size: 48px;
+      color: #222;
+      border-bottom: solid 1px #ccc;
+      padding-bottom: 10px;
+      @media (min-width: 768px) and (min-device-width: 768px) {
+        text-align: left;
+      }
+    }
+
+    .bio {
+      font-size: 18px;
+      text-align: justify;
+      @media (min-width: 768px) and (min-device-width: 768px) {
+        text-align: left;
+      }
+    }
+
+    .location {
+      text-align: center;
+      @media (min-width: 768px) and (min-device-width: 768px) {
+        text-align: left;
+      }
+    }
+
+    ul.links {
+      list-style: none none;
+      padding: 0;
+
+      li {
+        margin-right: 15px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        white-space: nowrap;
+        text-align: center;
+
+        @media (min-width: 768px) and (min-device-width: 768px) {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+}
