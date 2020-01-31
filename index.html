@@ -118,7 +118,7 @@
 
           <div class="mastfoot">
             <div class="inner">
-              <p>CABA - ©  2017<script>var dato = new Date().getHours;</script></p>
+              <p id="pfooter" style="align-content: center;"> </p>
             </div>
           </div>
 
@@ -136,6 +136,8 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <script>
       $('#boton-principal').tooltip();
+
+      $('#pfooter').text("CABA - © "+(new Date).getFullYear() );
       /*$('#boton-principal').popover({
         trigger: 'click'
       })*/
