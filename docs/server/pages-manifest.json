@@ -1,11 +1,11 @@
 {
-  "/404": "pages/404.html",
-  "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/contact": "pages/contact.html",
-  "/": "pages/index.html",
-  "/works": "pages/works.html",
-  "/works/consultoria": "pages/works/consultoria.html",
-  "/works/ecommerce": "pages/works/ecommerce.html",
-  "/_error": "pages/_error.js"
+  "./404": "pages/404.html",
+  "./_app": "pages/_app.js",
+  "./_document": "pages/_document.js",
+  "./contact": "pages/contact.html",
+  "./": "pages/index.html",
+  "./works": "pages/works.html",
+  "./works/consultoria": "pages/works/consultoria.html",
+  "./works/ecommerce": "pages/works/ecommerce.html",
+  "./_error": "pages/_error.js"
 }
