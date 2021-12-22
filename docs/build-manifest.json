@@ -1,0 +1,64 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/ZqvcGS5cVzBhVGXC63g1p/_buildManifest.js",
+    "static/ZqvcGS5cVzBhVGXC63g1p/_ssgManifest.js",
+    "static/ZqvcGS5cVzBhVGXC63g1p/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/index-51ea0b9c54159598.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/404-cd5984ea37ccb002.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/_app-af19a6850e0066b8.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/_error-d742f979193aeae4.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/117-a56ade0a46fcf45b.js",
+      "static/chunks/pages/contact-e8df376ec47e6e38.js"
+    ],
+    "/works": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/works-d834a44c69e9b38b.js"
+    ],
+    "/works/consultoria": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/works/consultoria-3f2099847a085e55.js"
+    ],
+    "/works/ecommerce": [
+      "static/chunks/webpack-b59580b1a5b71825.js",
+      "static/chunks/framework-5cfa0111fbb5aac2.js",
+      "static/chunks/main-404bdd3acbdd01ab.js",
+      "static/chunks/pages/works/ecommerce-1eb42358efb75a1c.js"
+    ]
+  },
+  "ampFirstPages": []
+}
